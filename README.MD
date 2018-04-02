@@ -13,6 +13,16 @@ Directions:
 For the first time execute the following command:
 > claudia create --region [AMAZON-REGION] --module-api api
 
+For updates run the following command:
+> claudia update
+
+Testing API:
+  
+  Issue the following commands to test: create order scenario.
+  curl -i -H "Content-Type: application/json" -X POST -d '{}' https://jtnlajadbi.execute-api.us-west-2.amazonaws.com/latest/orders
+  
+  curl -i -H "Content-Type: application/json" -X POST -d '{}' https://jtnlajadbi.execute-api.us-west-2.amazonaws.com/latest/orders
+
 
 References: 
 
