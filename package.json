@@ -14,6 +14,8 @@
   "author": "Sergio Gtz",
   "license": "ISC",
   "dependencies": {
-    "claudia-api-builder": "^3.0.2"
+    "aws-sdk": "^2.222.1",
+    "claudia-api-builder": "^3.0.2",
+    "uuid": "^3.2.1"
   }
 }
